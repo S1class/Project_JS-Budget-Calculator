@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 let money = prompt("Ваш бюджет на месяц?");
 let time = prompt("Введите дату в формате YYYY-MM-DD");
@@ -25,8 +25,8 @@ let appData = {
     
     income: [],
     
-    savings: false;
-}
+    savings: false,
+};
 
-alert(appData.budget / 30);
+alert(appData.budget / 30); 
 
